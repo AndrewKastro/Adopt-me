@@ -1,0 +1,123 @@
+
+
+#indicaciones{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: right;
+    padding-left: 5px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1%;
+    border: 1px solid rgba(121, 121, 121, .3);
+    border-radius: 10px;
+}
+#ind_cerrar{
+    text-align: center;
+    margin-left: 50%;
+}
+
+#ind_cerrar input{
+    outline: none;
+    width: 73px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid rgba(121, 121, 121, .3);
+    background-color: #e8875c;
+}
+
+#ind_cerrar input:hover{
+    color: white;
+    background-color: var(--azulff);
+}
+#contenedor_solicitud{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center; 
+   /* background-color: rgb(172, 34, 34);  */
+} 
+
+#nome{
+    padding-top: 1%;
+font-size: 16px;
+text-align: center;
+width: 32%;
+height: 12%;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+background-color: var(--azulff);
+color: whitesmoke;
+box-shadow: 1px 1px 5px #000;
+} 
+ /* #solicitud{
+    padding-left: 10%;
+    margin: 0px;
+    height: 15%;
+    width:60%;
+     background-color: rgb(101, 109, 63);
+}  */
+#caixa{
+    border-top-right-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    width:450px;
+    background-color:var(--azulcc);
+    box-shadow: 1px 1px 5px #000; 
+}
+#caixa img{
+    margin-right: 2%;
+    border-radius: 10px;
+    width: 130px;
+    height:100px;
+    /* background-color: rgb(15, 148, 59); */
+    border: 1px solid rgba(116, 46, 46, 0.459);
+    
+}
+#datos{
+     width: 40%;
+    /* background-color: rgb(135, 211, 160);  */
+}
+#datos p{
+    margin: 4px; 
+}
+#saude{
+     line-height: 18px;
+    margin: 5px;
+    width: 18%;
+    /* background-color: rgb(196, 236, 210);  */
+}
+ul{
+     list-style: none;
+    padding: 0px; 
+}
+#DA{
+     font-size: 14px;
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 1%;
+    height: 15%;
+    width:470px;
+    /* background-color: aqua; */
+}
+.denegar{
+     background: transparent;
+    outline: none;
+    border-style: none;
+ 
+}
+.denegar:hover{
+    color: red; 
+}
+.aceptar{
+   background: transparent;
+    outline: none;
+    border-style: none;
+  
+}
+.aceptar:hover{
+    color:green; 
+}

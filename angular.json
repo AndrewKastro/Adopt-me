@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "adopt-me"
+  "defaultProject": "adopt-me",
+  "cli": {
+    "analytics": "5cafe49b-5de0-4fa2-9a20-1cd0419573d9"
+  }
 }

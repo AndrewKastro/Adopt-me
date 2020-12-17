@@ -1,0 +1,83 @@
+#contenido_adocao{
+    /* padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;*/
+    padding-bottom: 10px;
+    /* display: none; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+    height:auto;
+    /* background-color: rgb(117, 168, 66); */
+}
+#indicaciones{
+    padding-left: 5px;
+}
+#ind_cerrar{
+    text-align: center;
+    margin-left: 50%;
+}
+#ind_cerrar input{
+    outline: none;
+    width: 73px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid rgba(121, 121, 121, .3);
+    background-color: #e8875c;
+   
+}
+#ind_cerrar input:hover{
+    color: white;
+    background-color: var(--azulff);
+}
+.contenedor_perro{
+    border: 1px solid rgba(121, 121, 121, .3);
+  
+ 
+   
+    /* background-image: url('./img/opening.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border-radius: 30px;
+    margin: 1%;
+    width: 31%;
+    height: 220px;
+    /* background-color: aqua; */
+}
+.contenedor_perro img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 200px;
+    box-shadow: 1px 1px 5px #000;
+}
+.BtnAdoptar{
+    padding-top:5px;
+    padding-bottom:1px;
+    text-align: center;
+    /* border-top: 1px solid var(--azulff); */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 100%;
+    height: 25px;
+    background-color:whitesmoke;
+}
+.Adoptar, .Pendiente{
+    outline: none;
+    border: 0px;
+    color: var(--azulff);
+    font-size: 14px;
+    font-weight: 600;
+}
+.Adoptar:hover{
+   color: var(--azulm);
+}
+.Pendiente:hover{
+    
+    color: rgb(116, 116, 116);
+}
