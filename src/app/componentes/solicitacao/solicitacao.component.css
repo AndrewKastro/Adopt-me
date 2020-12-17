@@ -1,7 +1,7 @@
 
 
 #indicaciones{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: right;
@@ -10,7 +10,7 @@
     height: 100px;
     margin-bottom: 1%;
     border: 1px solid rgba(121, 121, 121, .3);
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 #ind_cerrar{
     text-align: center;

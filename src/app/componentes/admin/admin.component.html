@@ -1,14 +1,15 @@
-<p>ADMIN</p>
+<div class="form">
+<!-- <p>ADMIN</p> -->
 <hr>
 <!-- <p> datos de los cachorros: {{DatosCachorros|json}} </p> -->
-        Criterio de Busqueda(clic):
+        Critério de pesquisa(click):
         
-        <button (click)="AnadirCampo('Nombre')" >Nombre</button> |
+        <button (click)="AnadirCampo('Nombre')" >Nome</button> |
          <button (click)="AnadirCampo('sexo')" >Sexo</button> |
-         <button (click)="AnadirCampo('edad')" >Edad</button> |
+         <button (click)="AnadirCampo('edad')" >Idade</button> |
          <button (click)="AnadirCampo('porte')" >Porte</button> |
          <button (click)="AnadirCampo('temperamento')" >Temperamento</button> |
-         <button (click)="AnadirCampo('saude')" >Saude</button>
+         <button (click)="AnadirCampo('saude')" >Saúde</button>
  <br>
  <br>
 <form #BuscarPerro="ngForm" (ngSubmit)="Buscar()">
@@ -25,7 +26,7 @@
     Apellido: {{item.apellido}}
 </p> -->
 <hr>
-<strong><p>id | Nombre | Sexo | Edad | Porte | Temperamento | Saude</p> </strong>
+<!-- <strong><p>id | Nombre | Sexo | Edad | Porte | Temperamento | Saude</p> </strong> -->
 
 
 <div *ngFor="let result of resultado">
@@ -39,7 +40,7 @@
     <!-- <input type="submit" value="Salvar Cambios"> -->
    
  </div>
-
+</div>
 <p>
 <!-- VALOR RESULT: {{result|json}} -->
 </p>
@@ -51,13 +52,13 @@
 <hr>
 <br>
 <form #CachorroNew="ngForm" (ngSubmit)="onSubmit(CachorroNew)">
-  <h2>Nuevo Cachorro</h2>
-   <p> Nombre*: <input type="text" name="Nombre" [(ngModel)]="perro.Nombre" required></p>
+  <h2>Novo Cachorro</h2>
+   <p>Nome*: <input type="text" name="Nombre" [(ngModel)]="perro.Nombre" required></p>
    <p>Sexo*: <input type="text" name="sexo" [(ngModel)]="perro.sexo" required ></p>
-   <p>Edad*: <input type="text" name="edad" [(ngModel)]="perro.edad"  required></p>
+   <p>Idade*: <input type="text" name="edad" [(ngModel)]="perro.edad"  required></p>
    <p>Porte*: <input type="text" name="porte" [(ngModel)]="perro.porte" required></p>
    <p>Temperamento*: <input type="text" name="temperamento" [(ngModel)]="perro.temperamento" required></p>
-   <p>Saude*: <input type="text" name="saude" [(ngModel)]="perro.saude" required ></p>
+   <p>Saúde*: <input type="text" name="saude" [(ngModel)]="perro.saude" required ></p>
    <p>Foto*: <input type="file" name="foto" [(ngModel)]="perro.foto" required></p>
       
     <input type="submit" value="Registrar">

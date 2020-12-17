@@ -1,4 +1,24 @@
-.BtSelect:active{
+/* .BtSelect:active{
 background-color: var(--azulff);
 color: whitesmoke;
+} */
+form{
+    padding: 2em;
+    background-color: #5b3520;
+    color: whitesmoke;
+    border-radius: 50px;
+}
+button{
+    background-color: #d89f5b;
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+input{
+    background-color: #e4915c;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin-right: 5px;
 }
